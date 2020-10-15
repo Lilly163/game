@@ -1,0 +1,30 @@
+.frc_panel_container {
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  width: 100%;
+  margin: 1rem auto;
+  border-radius: 6px;
+  box-shadow: 0 6px 20px 0 rgba(176, 176, 176, 0.5);
+
+  .frc_panel_title {
+    box-sizing: border-box;
+    min-height: 2rem;
+    padding: .6rem;
+    border-bottom: 1px solid #eaeaea;
+    h3 {
+      font-size: 0.85rem;
+      display: inline-block;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0.95rem;
+    }
+  }
+
+  .frc_panel_content {
+    box-sizing: border-box;
+    min-height: 5rem;
+    padding: 1rem 5px;
+  }
+}
